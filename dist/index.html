@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#181622">
+<meta name="description" content="Dimmy & Maca’s little moonlit world. Keep your memories, leave a love note, and spend a little time together.">
+<title>Dimmy & Maca · Our Little World</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2329243a'/%3E%3Cpath d='M42 13a22 22 0 1 0 9 32A23 23 0 0 1 42 13' fill='%23e8d3a4'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script src="core.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<div class="sky" aria-hidden="true"></div>
+<div class="app-shell">
+<aside class="sidebar">
+<a class="brand" href="#home" aria-label="Dimmy and Maca home"><span class="brand-symbol">☾<i>✧</i></span><span>our little<br><em>world.</em></span></a>
+<div class="side-caption">A PLACE FOR US</div>
+<nav aria-label="Main navigation">
+<a href="#home" data-nav="home"><svg><use href="#i-home"/></svg>Our hideaway<span class="nav-dot"></span></a>
+<a href="#memories" data-nav="memories"><svg><use href="#i-image"/></svg>Memory shelf<span id="memory-count" class="nav-count"></span></a>
+<a href="#notes" data-nav="notes"><svg><use href="#i-mail"/></svg>Little love notes<span id="note-count" class="nav-count"></span></a>
+<a href="#together" data-nav="together"><svg><use href="#i-spark"/></svg>Just us time</a>
+</nav>
+<div class="side-bottom"><div class="couple-orbits" aria-hidden="true"><span>d</span><span>m</span><i>♡</i></div><strong>dimmy & maca</strong><span>same moon. same team.</span><button class="text-button" data-action="settings"><svg><use href="#i-settings"/></svg>Make it ours</button></div>
+</aside>
+<div class="main-wrap">
+<header class="topbar"><span class="top-greeting">A little closer, always.</span><div class="top-tools"><span class="storage-label"><svg><use href="#i-lock"/></svg>Saved on this browser</span><button class="icon-button" data-action="settings" aria-label="Settings and backups"><svg><use href="#i-settings"/></svg></button></div></header>
+<main id="main" tabindex="-1"></main>
+<footer><span>Made of little moments & a lot of love.</span><span>dimmy <i>♡</i> maca</span></footer>
+</div>
+</div>
+<dialog id="modal" aria-labelledby="dialog-title"><div id="modal-content"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></symbol>
+<symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-6 5 7"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m3 7 9 7 9-7"/></symbol>
+<symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><path d="m9 3-1 3-3 1v4l2 1-2 2 2 4 3-1 2 3 4-1 1-3 3-1v-4l-3-1 1-3-3-2-3 1Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M20 5c-3-3-7-1-8 1-1-2-5-4-8-1-4 4 1 9 8 15 7-6 12-11 8-15Z"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+</svg>
+</body></html>
